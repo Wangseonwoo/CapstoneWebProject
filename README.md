@@ -6,9 +6,8 @@
 - 보안 시스템을 OTP를 활용하여 보안을 강화하기 위한 시스템.
 - 회원들을 위한 게시판 및 OTP 발급 웹 개발.
 
-## Stack & Library
-- Flask, MariaDB,  Vue.js
-- Python, Javascript, HTML, CSS
+## Stack
+- Flask, Python, MariaDB, Vue.js, Javascript, HTML, CSS
 
 ##  Project Features
 
