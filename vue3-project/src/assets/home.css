@@ -1,0 +1,128 @@
+/* VISUAL */
+.visual {
+  margin-top: 120px;
+  background-image: url('../images/door.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.visual .inner {
+  height: 800px;
+}
+
+/* NOTICE */
+
+.notice .notice-line {
+  position: relative;
+}
+
+.notice .notice-line .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+}
+.notice .notice-line .inner {
+  height: 120px;
+  display: flex;
+}
+
+.notice .notice-line .inner h2 {
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* TOUCH */
+.touch-product {
+  background-image: url('../images/touch_bg.jpg');
+  position: relative;
+}
+
+.touch-product .inner {
+  height: 400px;
+  width: 1336px;
+}
+
+.touch-product .text-gruop {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+.touch-product .text-gruop .title {
+  margin-bottom: 10px;
+}
+
+.touch-product .text-gruop .description {
+  margin-bottom: 15px;
+}
+
+/* OTP */
+.otp-product {
+  background-image: url('../images/otp_bg.jpg');
+  background-repeat: no-repeat;
+}
+
+.otp-product .inner {
+  height: 400px;
+  width: 1336px;
+}
+
+.otp-product .text-gruop {
+  position: absolute;
+  top: 124px;
+  left: 208px;
+}
+
+.otp-product .product {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* SIGIN */
+.sigin-product {
+  background-image: url('../images/sigin_bg.jpg');
+  position: relative;
+}
+
+.sigin-product .inner {
+  height: 400px;
+  width: 1336px;
+}
+
+.sigin-product .text-gruop {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+.sigin-product .text-gruop .title {
+  margin-bottom: 10px;
+}
+
+.sigin-product .text-gruop .description {
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width:300px) and (max-width:800px)  {
+
+  .notice { 
+    display: none;
+  }
+
+  main {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}

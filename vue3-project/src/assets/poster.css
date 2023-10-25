@@ -1,0 +1,9 @@
+.poster {
+  display: flex;
+  padding: 200px 0;
+  justify-content: center;
+}
+
+img {
+  display: flex;
+}

@@ -1,0 +1,69 @@
+
+.box,
+.box1 {
+  opacity: 0;
+}
+/* TOUCH */
+.touch-product {
+  background-image: url('../images/touch_bg.jpg');
+  position: relative;
+}
+
+.touch-product .inner {
+  height: 400px;
+  width: 1336px;
+}
+
+.touch-product .text-gruop {
+  position: absolute;
+  top: 110px;
+  right: -50%;
+}
+
+.touch-product .text-gruop .title {
+  margin-bottom: 10px;
+}
+
+/* OTP */
+.otp-product {
+  background-image: url('../images/otp_bg.jpg');
+  background-repeat: no-repeat;
+}
+
+.otp-product .inner {
+  height: 400px;
+  width: 1336px;
+}
+
+.otp-product .inner1 {
+  position: absolute;
+  left: 115%;
+}
+.otp-product .text-gruop {
+  position: absolute;
+  top: 124px;
+  right: 50%;
+}
+
+.otp-product .product {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* SIGIN */
+.sigin-product {
+  background-image: url('../images/sigin_bg.jpg');
+  position: relative;
+}
+
+.sigin-product .inner {
+  height: 400px;
+  width: 1336px;
+}
+
+.sigin-product .text-gruop {
+  position: absolute;
+  top: 110px;
+  right: -50%;
+}

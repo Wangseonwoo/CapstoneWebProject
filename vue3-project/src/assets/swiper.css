@@ -1,0 +1,62 @@
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  height: 693px;
+  background-color: #f6f5ef;
+  position: relative;
+  transition: height 0.4s;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 800px;
+  height: 650px;
+}
+
+.swiper_inner {
+  position: absolute;
+  font-size: 25px;
+  margin-left: 20px;
+  bottom: 5%;
+  right: 18%;
+}
+.consult_btn::before {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 7px;
+  border-radius: 10px;
+  width: 333px;
+  height: 100px;
+  left: 25%;
+  bottom: 120%;
+  opacity: 0;
+  transition: all 0.5s linear;
+  content: url('../images/call.png');
+}
+.consult_btn:hover::before {
+  opacity: 1;
+}
