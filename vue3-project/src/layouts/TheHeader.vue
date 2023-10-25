@@ -7,7 +7,7 @@
       <div class="sub-menu">
         <ul class="menu">
           <li v-if="!isLoggedIn">
-            <RouterLink to="/login">LogIn</RouterLink>
+            <RouterLink class="btn" to="/login">LogIn</RouterLink>
           </li>
           <li v-if="isLoggedIn">
             <RouterLink class="btn" to="/otp">OTP</RouterLink>
