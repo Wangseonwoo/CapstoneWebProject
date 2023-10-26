@@ -4,8 +4,8 @@ import pymysql
 login_bp = Blueprint('login', __name__)
 db = pymysql.connect(
     host='localhost',
-    user='sunwoo',
-    password='Zxcvb0860!',
+    user='본인 아이디',
+    password='본인 비밀번호',
     database='capstone_db'
 )
 
